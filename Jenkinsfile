@@ -11,6 +11,7 @@ pipeline
             steps
             {
                 sh 'node test.js'
+                sh 'echo hiii!!'
             }
         }
     }
